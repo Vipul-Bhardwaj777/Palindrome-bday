@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:beige;
+    font-family:'dancing script',sans-serif;
+}
+
+main{
+flex-grow:1;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+
+main h1,h3,label,input,button{
+    margin-top:1rem;
+}
+
+h1,h3,label{
+    font-weight: bolder;
+}
+
+label{
+    font-size:18px;
+}
+
+#dob{
+    width:20vw;
+    height: 5vh;
+    padding:.5em;
+    border-radius: 20px;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 0 1em 1em -0.7em rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    
+}
+
+
+#check-btn{
+    padding: .3em;
+    width:6%;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: larger;
+    background-color: burlywood;
+    box-shadow: 0 1em 1em -0.5em rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#check-btn:hover{
+    transform: scale(1.1);
+}
+
+#output-div{
+    margin:2em auto;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+footer{
+    margin:auto;
+}
+
+.icons{
+    margin:1em 0em;
+}
+
+
+.icons a{
+    color: burlywood;
+    margin-right: .5em;
+    
+    
+}
+
+.icons i{
+    transition: all 0.3s;
+    
+}
+.icons i:hover{
+    transform: scale(1.2);
+}
